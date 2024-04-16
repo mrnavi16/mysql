@@ -9,6 +9,6 @@ age INT NOT NULL
 );
 
 INSERT INTO student VALUES(1, "Navneet", 22);
-INSERT INTO student VALUES(2, "Lokesh", 23);
+INSERT INTO student VALUES(2, "Paritosh", 21);
 
 SELECT * FROM student;
