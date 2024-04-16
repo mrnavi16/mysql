@@ -16,3 +16,7 @@ INSERT INTO student VALUES(1, "Navneet", 22);
 INSERT INTO student VALUES(2, "Paritosh", 21);
 
 SELECT * FROM student;
+
+SHOW DATABASES;
+
+SHOW TABLES;
