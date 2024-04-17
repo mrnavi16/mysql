@@ -40,6 +40,10 @@ SELECT * FROM studentiiitu WHERE city IN ("Delhi", "Rajasthan");
 
 
 
+SELECT * FROM studentiiitu LIMIT 3;
+
+
+
 
 
 
