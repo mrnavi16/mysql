@@ -1,0 +1,45 @@
+CREATE DATABASE collegeiiitu;
+USE collegeiiitu; 
+
+CREATE TABLE studentiiitu (
+rollno INT PRIMARY KEY,
+name VARCHAR(50),
+marks INT NOT NULL,
+grade VARCHAR(1),
+city VARCHAR(20)
+);
+
+INSERT INTO studentiiitu
+(rollno, name, marks, grade, city)
+VALUES
+(20222, "Navneet", 67, "C", "Rajasthan"),
+(20223, "Navoday", 89, "B", "U.P."),
+(20224, "Ramji", 90, "A", "Delhi"),
+(20225, "Nikhil", 98, "S", "Rajasthan");
+
+SELECT name, marks FROM studentiiitu;
+SELECT * FROM studentiiitu;
+
+SELECT DISTINCT city FROM studentiiitu;
+
+SELECT * FROM studentiiitu WHERE marks>80;
+
+SELECT * FROM studentiiitu WHERE city="Rajasthan";
+
+
+SELECT *
+FROM studentiiitu
+WHERE marks>70 AND city="Delhi";
+
+
+SELECT *
+FROM studentiiitu
+WHERE marks BETWEEN 70 AND 90;
+
+SELECT * FROM studentiiitu WHERE city IN ("Delhi", "Rajasthan");
+
+
+
+
+
+
