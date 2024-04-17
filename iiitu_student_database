@@ -46,4 +46,17 @@ SELECT * FROM studentiiitu LIMIT 3;
 
 
 
+SELECT * 
+FROM studentiiitu
+ORDER BY city ASC;
+
+
+SELECT * 
+FROM studentiiitu
+ORDER BY marks DESC;
+
+
+
+
+
 
